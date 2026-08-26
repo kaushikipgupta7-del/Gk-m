@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6c63ff">
+    <title>GK Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="topbar">
+        <button class="logo-btn" onclick="goHome()">
+            🧠 <span>GK Master</span>
+        </button>
+
+        <div class="player-stats">
+            <div>⭐ <span id="xp">0</span></div>
+            <div>🪙 <span id="coins">0</span></div>
+        </div>
+    </header>
+
+
+    <!-- HOME -->
+    <main id="homeScreen" class="screen active">
+
+        <section class="hero">
+            <div>
+                <p class="eyebrow">WELCOME BACK</p>
+                <h1>Test your knowledge.</h1>
+                <p>
+                    Play quizzes, earn XP, build streaks and become a GK Master.
+                </p>
+            </div>
+
+            <div class="hero-icon">🧠</div>
+        </section>
+
+
+        <section class="level-card">
+
+            <div class="level-top">
+                <div>
+                    <span class="muted">LEVEL</span>
+                    <strong id="level">1</strong>
+                </div>
+
+                <div class="level-xp">
+                    <span id="currentXP">0</span> / 100 XP
+                </div>
+            </div>
+
+            <div class="progress">
+                <div id="xpProgress"></div>
+            </div>
+
+        </section>
+
+
+        <section class="quick-grid">
+
+            <div class="quick-card">
+                <span>🔥</span>
+                <div>
+                    <small>Streak</small>
+                    <strong id="streak">0</strong>
+                </div>
+            </div>
+
+            <div class="quick-card">
+                <span>🏆</span>
+                <div>
+                    <small>Best Score</small>
+                    <strong id="bestScore">0</strong>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="daily-card">
+
+            <div>
+                <span class="badge">DAILY</span>
+                <h2>Daily Challenge</h2>
+                <p>Answer today's questions and earn bonus rewards.</p>
+            </div>
+
+            <button onclick="startDaily()">
+                PLAY →
+            </button>
+
+        </section>
+
+
+        <button class="primary-btn large" onclick="openCategories()">
+            🎮 Start Quiz
+        </button>
+
+        <button class="secondary-btn large" onclick="openLeaderboard()">
+            🏆 Leaderboard
+        </button>
+
+    </main>
+
+
+    <!-- CATEGORY SCREEN -->
+    <main id="categoryScreen" class="screen">
+
+        <button class="back-btn" onclick="goHome()">← Home</button>
+
+        <h1>Choose a category</h1>
+        <p class="muted">What do you want to test today?</p>
+
+        <div id="categoryGrid" class="category-grid"></div>
+
+    </main>
+
+
+    <!-- MODE SCREEN -->
+    <main id="modeScreen" class="screen">
+
+        <button class="back-btn" onclick="openCategories()">← Categories</button>
+
+        <div class="selected-category">
+            <span id="selectedEmoji">🧠</span>
+            <div>
+                <small>SELECTED CATEGORY</small>
+                <h1 id="selectedCategory">General Knowledge</h1>
+            </div>
+        </div>
+
+        <h2>Choose your mode</h2>
+
+        <div class="mode-list">
+
+            <button class="mode-card" onclick="startQuiz('classic')">
+                <span>🧠</span>
+                <div>
+                    <strong>Classic</strong>
+                    <p>10 questions</p>
+                </div>
+                <b>→</b>
+            </button>
+
+            <button class="mode-card" onclick="startQuiz('hard')">
+                <span>🔥</span>
+                <div>
+                    <strong>Hard Mode</strong>
+                    <p>Only difficult questions</p>
+                </div>
+                <b>→</b>
+            </button>
+
+            <button class="mode-card" onclick="startQuiz('timed')">
+                <span>⏱️</span>
+                <div>
+                    <strong>Timed</strong>
+                    <p>15 seconds per question</p>
+                </div>
+                <b>→</b>
+            </button>
+
+            <button class="mode-card" onclick="startQuiz('infinite')">
+                <span>♾️</span>
+                <div>
+                    <strong>Infinite</strong>
+                    <p>Keep going until you miss</p>
+                </div>
+                <b>→</b>
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- QUIZ SCREEN -->
+    <main id="quizScreen" class="screen">
+
+        <div class="quiz-header">
+
+            <button class="back-btn" onclick="quitQuiz()">
+                ✕ Quit
+            </button>
+
+            <div class="quiz-meta">
+                <span id="questionCounter">1 / 10</span>
+                <span id="timer">∞</span>
+            </div>
+
+        </div>
+
+
+        <div class="quiz-progress">
+            <div id="quizProgress"></div>
+        </div>
+
+
+        <section class="question-card">
+
+            <div class="question-info">
+                <span id="questionCategory">SCIENCE</span>
+                <span id="difficulty">EASY</span>
+            </div>
+
+            <h1 id="questionText">
+                Question loading...
+            </h1>
+
+        </section>
+
+
+        <div id="answers" class="answers"></div>
+
+
+        <div class="quiz-bottom">
+
+            <div>
+                🔥 <span id="quizStreak">0</span>
+            </div>
+
+            <button
+                id="nextButton"
+                class="primary-btn next-btn"
+                onclick="nextQuestion()"
+                disabled>
+                Next →
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- RESULT SCREEN -->
+    <main id="resultScreen" class="screen">
+
+        <section class="result-card">
+
+            <div class="result-icon">🎉</div>
+
+            <p class="eyebrow">QUIZ COMPLETE</p>
+
+            <h1 id="resultTitle">Great job!</h1>
+
+            <div class="big-score">
+                <span id="finalScore">0</span>
+                <small id="finalTotal">/ 10</small>
+            </div>
+
+            <div class="result-grid">
+
+                <div>
+                    <span>⭐</span>
+                    <small>XP</small>
+                    <strong id="earnedXP">0</strong>
+                </div>
+
+                <div>
+                    <span>🪙</span>
+                    <small>Coins</small>
+                    <strong id="earnedCoins">0</strong>
+                </div>
+
+                <div>
+                    <span>🔥</span>
+                    <small>Streak</small>
+                    <strong id="resultStreak">0</strong>
+                </div>
+
+            </div>
+
+
+            <div class="result-actions">
+
+                <button class="primary-btn" onclick="openCategories()">
+                    🔄 Play Again
+                </button>
+
+                <button class="secondary-btn" onclick="goHome()">
+                    🏠 Home
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- LEADERBOARD -->
+    <main id="leaderboardScreen" class="screen">
+
+        <button class="back-btn" onclick="goHome()">← Home</button>
+
+        <h1>🏆 Leaderboard</h1>
+        <p class="muted">Your best scores on this device.</p>
+
+        <div id="leaderboard"></div>
+
+        <button class="secondary-btn large" onclick="clearLeaderboard()">
+            Reset Leaderboard
+        </button>
+
+    </main>
+
+</div>
+
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
