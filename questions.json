@@ -1,0 +1,772 @@
+[
+  {
+    "q": "What is the chemical symbol for gold?",
+    "options": [
+      "Ag",
+      "Au",
+      "Gd",
+      "Go"
+    ],
+    "answer": "Au",
+    "category": "Science"
+  },
+  {
+    "q": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+    ],
+    "answer": "Mars",
+    "category": "Science"
+  },
+  {
+    "q": "What is H2O commonly called?",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Water",
+      "Salt"
+    ],
+    "answer": "Water",
+    "category": "Science"
+  },
+  {
+    "q": "Which gas do plants mainly absorb during photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "answer": "Carbon dioxide",
+    "category": "Science"
+  },
+  {
+    "q": "How many bones are there in an adult human body, approximately?",
+    "options": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ],
+    "answer": "206",
+    "category": "Science"
+  },
+  {
+    "q": "What is the largest organ of the human body?",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lung"
+    ],
+    "answer": "Skin",
+    "category": "Science"
+  },
+  {
+    "q": "Which force keeps planets in orbit around the Sun?",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism",
+      "Electricity"
+    ],
+    "answer": "Gravity",
+    "category": "Science"
+  },
+  {
+    "q": "What is the SI unit of electric current?",
+    "options": [
+      "Volt",
+      "Watt",
+      "Ampere",
+      "Ohm"
+    ],
+    "answer": "Ampere",
+    "category": "Science"
+  },
+  {
+    "q": "Which vitamin is produced in the skin in response to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answer": "Vitamin D",
+    "category": "Science"
+  },
+  {
+    "q": "What is the nearest star to Earth?",
+    "options": [
+      "Sirius",
+      "Polaris",
+      "The Sun",
+      "Alpha Centauri"
+    ],
+    "answer": "The Sun",
+    "category": "Science"
+  },
+  {
+    "q": "What is the capital of India?",
+    "options": [
+      "Mumbai",
+      "New Delhi",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "New Delhi",
+    "category": "India"
+  },
+  {
+    "q": "Who is known as the Father of the Nation in India?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "B. R. Ambedkar"
+    ],
+    "answer": "Mahatma Gandhi",
+    "category": "India"
+  },
+  {
+    "q": "Which is the national animal of India?",
+    "options": [
+      "Lion",
+      "Elephant",
+      "Bengal tiger",
+      "Peacock"
+    ],
+    "answer": "Bengal tiger",
+    "category": "India"
+  },
+  {
+    "q": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Eagle",
+      "Sparrow",
+      "Swan"
+    ],
+    "answer": "Peacock",
+    "category": "India"
+  },
+  {
+    "q": "Who wrote the Indian national anthem?",
+    "options": [
+      "Bankim Chandra Chattopadhyay",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Subhas Chandra Bose"
+    ],
+    "answer": "Rabindranath Tagore",
+    "category": "India"
+  },
+  {
+    "q": "Which Indian city is called the Pink City?",
+    "options": [
+      "Jaipur",
+      "Jodhpur",
+      "Udaipur",
+      "Agra"
+    ],
+    "answer": "Jaipur",
+    "category": "India"
+  },
+  {
+    "q": "The Constitution of India came into effect on which date?",
+    "options": [
+      "15 August 1947",
+      "26 January 1950",
+      "26 November 1949",
+      "2 October 1950"
+    ],
+    "answer": "26 January 1950",
+    "category": "India"
+  },
+  {
+    "q": "Which river is often called the lifeline of Egypt?",
+    "options": [
+      "Ganga",
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "answer": "Nile",
+    "category": "World"
+  },
+  {
+    "q": "Who was the first Prime Minister of independent India?",
+    "options": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Rajendra Prasad",
+      "Lal Bahadur Shastri"
+    ],
+    "answer": "Jawaharlal Nehru",
+    "category": "India"
+  },
+  {
+    "q": "Which monument is located in Agra?",
+    "options": [
+      "Gateway of India",
+      "Taj Mahal",
+      "Charminar",
+      "Victoria Memorial"
+    ],
+    "answer": "Taj Mahal",
+    "category": "India"
+  },
+  {
+    "q": "In which year did India gain independence?",
+    "options": [
+      "1945",
+      "1947",
+      "1950",
+      "1952"
+    ],
+    "answer": "1947",
+    "category": "History"
+  },
+  {
+    "q": "Who founded the Maurya Empire?",
+    "options": [
+      "Ashoka",
+      "Chandragupta Maurya",
+      "Harsha",
+      "Akbar"
+    ],
+    "answer": "Chandragupta Maurya",
+    "category": "History"
+  },
+  {
+    "q": "Who was the first Mughal emperor of India?",
+    "options": [
+      "Akbar",
+      "Babur",
+      "Humayun",
+      "Shah Jahan"
+    ],
+    "answer": "Babur",
+    "category": "History"
+  },
+  {
+    "q": "The Quit India Movement began in which year?",
+    "options": [
+      "1930",
+      "1935",
+      "1942",
+      "1947"
+    ],
+    "answer": "1942",
+    "category": "History"
+  },
+  {
+    "q": "Who built the Taj Mahal?",
+    "options": [
+      "Akbar",
+      "Shah Jahan",
+      "Aurangzeb",
+      "Babur"
+    ],
+    "answer": "Shah Jahan",
+    "category": "History"
+  },
+  {
+    "q": "Who was known as the Iron Man of India?",
+    "options": [
+      "Sardar Vallabhbhai Patel",
+      "Bhagat Singh",
+      "Subhas Chandra Bose",
+      "Rajendra Prasad"
+    ],
+    "answer": "Sardar Vallabhbhai Patel",
+    "category": "History"
+  },
+  {
+    "q": "The French Revolution began in which year?",
+    "options": [
+      "1689",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "answer": "1789",
+    "category": "History"
+  },
+  {
+    "q": "Who discovered the sea route to India around the Cape of Good Hope?",
+    "options": [
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "James Cook"
+    ],
+    "answer": "Vasco da Gama",
+    "category": "History"
+  },
+  {
+    "q": "Who was the first President of India?",
+    "options": [
+      "Rajendra Prasad",
+      "S. Radhakrishnan",
+      "Zakir Husain",
+      "Jawaharlal Nehru"
+    ],
+    "answer": "Rajendra Prasad",
+    "category": "History"
+  },
+  {
+    "q": "The Dandi March is associated with which movement?",
+    "options": [
+      "Non-Cooperation Movement",
+      "Civil Disobedience Movement",
+      "Quit India Movement",
+      "Swadeshi Movement"
+    ],
+    "answer": "Civil Disobedience Movement",
+    "category": "History"
+  },
+  {
+    "q": "Which is the largest continent?",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "answer": "Asia",
+    "category": "Geography"
+  },
+  {
+    "q": "Which is the largest ocean?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "answer": "Pacific Ocean",
+    "category": "Geography"
+  },
+  {
+    "q": "What is the highest mountain in the world?",
+    "options": [
+      "K2",
+      "Mount Everest",
+      "Kangchenjunga",
+      "Makalu"
+    ],
+    "answer": "Mount Everest",
+    "category": "Geography"
+  },
+  {
+    "q": "Which desert is the largest hot desert in the world?",
+    "options": [
+      "Gobi",
+      "Sahara",
+      "Thar",
+      "Kalahari"
+    ],
+    "answer": "Sahara",
+    "category": "Geography"
+  },
+  {
+    "q": "Which country has the largest land area?",
+    "options": [
+      "Canada",
+      "China",
+      "United States",
+      "Russia"
+    ],
+    "answer": "Russia",
+    "category": "Geography"
+  },
+  {
+    "q": "Which line divides Earth into Northern and Southern Hemispheres?",
+    "options": [
+      "Prime Meridian",
+      "Tropic of Cancer",
+      "Equator",
+      "Arctic Circle"
+    ],
+    "answer": "Equator",
+    "category": "Geography"
+  },
+  {
+    "q": "Which Indian state has the longest coastline?",
+    "options": [
+      "Tamil Nadu",
+      "Gujarat",
+      "Maharashtra",
+      "Andhra Pradesh"
+    ],
+    "answer": "Gujarat",
+    "category": "Geography"
+  },
+  {
+    "q": "What is the capital of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "answer": "Canberra",
+    "category": "Geography"
+  },
+  {
+    "q": "Which country is known as the Land of the Rising Sun?",
+    "options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Thailand"
+    ],
+    "answer": "Japan",
+    "category": "Geography"
+  },
+  {
+    "q": "Which is the smallest continent by land area?",
+    "options": [
+      "Europe",
+      "Australia",
+      "Antarctica",
+      "South America"
+    ],
+    "answer": "Australia",
+    "category": "Geography"
+  },
+  {
+    "q": "How many players are on the field for one soccer team at a time?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "11",
+    "category": "Sports"
+  },
+  {
+    "q": "How many rings are on the Olympic flag?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "category": "Sports"
+  },
+  {
+    "q": "Which sport uses a shuttlecock?",
+    "options": [
+      "Tennis",
+      "Badminton",
+      "Squash",
+      "Hockey"
+    ],
+    "answer": "Badminton",
+    "category": "Sports"
+  },
+  {
+    "q": "How many players are there in a cricket team?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "11",
+    "category": "Sports"
+  },
+  {
+    "q": "Wimbledon is associated with which sport?",
+    "options": [
+      "Football",
+      "Cricket",
+      "Tennis",
+      "Golf"
+    ],
+    "answer": "Tennis",
+    "category": "Sports"
+  },
+  {
+    "q": "Which country hosted the first modern Olympic Games in 1896?",
+    "options": [
+      "France",
+      "Greece",
+      "Italy",
+      "United Kingdom"
+    ],
+    "answer": "Greece",
+    "category": "Sports"
+  },
+  {
+    "q": "In basketball, how many points is a free throw worth?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1",
+    "category": "Sports"
+  },
+  {
+    "q": "Which sport is associated with the term 'checkmate'?",
+    "options": [
+      "Boxing",
+      "Chess",
+      "Fencing",
+      "Wrestling"
+    ],
+    "answer": "Chess",
+    "category": "Sports"
+  },
+  {
+    "q": "How many players are on court for one volleyball team?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "category": "Sports"
+  },
+  {
+    "q": "The Ryder Cup is associated with which sport?",
+    "options": [
+      "Golf",
+      "Tennis",
+      "Cricket",
+      "Rugby"
+    ],
+    "answer": "Golf",
+    "category": "Sports"
+  },
+  {
+    "q": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Program Utility",
+      "Core Processing Utility"
+    ],
+    "answer": "Central Processing Unit",
+    "category": "Technology"
+  },
+  {
+    "q": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Hyperlink Text Management Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "HyperText Markup Language",
+    "category": "Technology"
+  },
+  {
+    "q": "Which company developed Android?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Apple",
+      "IBM"
+    ],
+    "answer": "Google",
+    "category": "Technology"
+  },
+  {
+    "q": "What does URL stand for?",
+    "options": [
+      "Universal Resource Link",
+      "Uniform Resource Locator",
+      "Unified Routing Language",
+      "User Resource Location"
+    ],
+    "answer": "Uniform Resource Locator",
+    "category": "Technology"
+  },
+  {
+    "q": "Which device is primarily used to connect a computer to a network wirelessly?",
+    "options": [
+      "Router/Wi-Fi adapter",
+      "Printer",
+      "Scanner",
+      "Monitor"
+    ],
+    "answer": "Router/Wi-Fi adapter",
+    "category": "Technology"
+  },
+  {
+    "q": "What is the binary representation of decimal 2?",
+    "options": [
+      "00",
+      "01",
+      "10",
+      "11"
+    ],
+    "answer": "10",
+    "category": "Technology"
+  },
+  {
+    "q": "Which language is mainly used to style web pages?",
+    "options": [
+      "HTML",
+      "CSS",
+      "Python",
+      "SQL"
+    ],
+    "answer": "CSS",
+    "category": "Technology"
+  },
+  {
+    "q": "Which language is commonly used to add interactivity to web pages?",
+    "options": [
+      "JavaScript",
+      "CSS",
+      "SQL",
+      "XML"
+    ],
+    "answer": "JavaScript",
+    "category": "Technology"
+  },
+  {
+    "q": "What does AI stand for?",
+    "options": [
+      "Automated Internet",
+      "Artificial Intelligence",
+      "Advanced Interface",
+      "Applied Information"
+    ],
+    "answer": "Artificial Intelligence",
+    "category": "Technology"
+  },
+  {
+    "q": "Which company created the Windows operating system?",
+    "options": [
+      "Apple",
+      "Google",
+      "Microsoft",
+      "IBM"
+    ],
+    "answer": "Microsoft",
+    "category": "Technology"
+  },
+  {
+    "q": "How many days are there in a leap year?",
+    "options": [
+      "364",
+      "365",
+      "366",
+      "367"
+    ],
+    "answer": "366",
+    "category": "General"
+  },
+  {
+    "q": "How many colors are traditionally listed in a rainbow?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "category": "General"
+  },
+  {
+    "q": "What is the currency of Japan?",
+    "options": [
+      "Won",
+      "Yuan",
+      "Yen",
+      "Ringgit"
+    ],
+    "answer": "Yen",
+    "category": "General"
+  },
+  {
+    "q": "Which language has the most native speakers worldwide?",
+    "options": [
+      "English",
+      "Spanish",
+      "Mandarin Chinese",
+      "Hindi"
+    ],
+    "answer": "Mandarin Chinese",
+    "category": "General"
+  },
+  {
+    "q": "What is the hardest natural substance?",
+    "options": [
+      "Iron",
+      "Quartz",
+      "Diamond",
+      "Granite"
+    ],
+    "answer": "Diamond",
+    "category": "General"
+  },
+  {
+    "q": "How many sides does a hexagon have?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "category": "General"
+  },
+  {
+    "q": "Which instrument has black and white keys?",
+    "options": [
+      "Violin",
+      "Piano",
+      "Flute",
+      "Trumpet"
+    ],
+    "answer": "Piano",
+    "category": "General"
+  },
+  {
+    "q": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue whale",
+      "Giraffe",
+      "Orca"
+    ],
+    "answer": "Blue whale",
+    "category": "General"
+  },
+  {
+    "q": "Which month has 28 days in a common year?",
+    "options": [
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "answer": "February",
+    "category": "General"
+  },
+  {
+    "q": "What is the boiling point of water at sea level in Celsius?",
+    "options": [
+      "90°C",
+      "100°C",
+      "110°C",
+      "120°C"
+    ],
+    "answer": "100°C",
+    "category": "General"
+  }
+]
